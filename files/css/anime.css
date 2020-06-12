@@ -36,6 +36,19 @@ animation-timing-function: ease-in-out;
 animation-timing-function: cubic-bezier(0.755,0.050,0.855,0.060);
 }
 
+/*
+
+<div id="bdy" class="bdy">
+<div class="dan">
+  <div class="glp ltr"></div>
+  <div class="glr ltr"></div>
+  <div class="grp ltr"></div>
+  <div class="grr ltr"></div>
+</div>
+</div>
+
+<div class="ftr"></div>
+*/
 
 
 
