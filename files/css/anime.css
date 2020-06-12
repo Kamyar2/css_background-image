@@ -1,0 +1,41 @@
+hr {
+height: 1px;
+border: none;
+background-color: transparent;
+}
+
+.an {
+
+animation-name: rotate;
+
+animation-delay: 2s;
+
+animation-duration: 7500ms;
+
+animation-direction: normal;
+animation-direction: alternate;
+animation-direction: reverse;
+animation-direction: alternate-reverse;
+
+animation-fill-mode: both;
+animation-fill-mode: backwards;
+animation-fill-mode: forwards;
+animation-fill-mode: none;
+
+animation-play-state: paused;
+animation-play-state: running;
+
+animation-iteration-count: 5;
+animation-iteration-count: infinite;
+
+animation-timing-function: linear;
+animation-timing-function: ease;
+animation-timing-function: ease-in;
+animation-timing-function: ease-out;
+animation-timing-function: ease-in-out;
+animation-timing-function: cubic-bezier(0.755,0.050,0.855,0.060);
+}
+
+
+
+
