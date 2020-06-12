@@ -1,0 +1,72 @@
+
+html xxx{
+-ms-overflow-style: -ms-autohiding-scrollbar;
+}
+html xxx{
+margin: 0;
+padding: 0;
+}
+body xxx{
+margin: 0;
+padding: 0;
+}
+xxx {
+overflow: hidden;
+}
+/* *************** */
+.itop {
+display: block;
+position: absolute;
+z-index: 999;
+top: -99px;
+left: -99px;
+}
+/* *************** */
+button {
+padding: 0px 4px;
+font: 400 14px Consolas;
+border: 1px solid #CCC;
+color: buttonText;
+background-color: buttonFace;
+background-image: linear-gradient(rgba(255,255,255,0.8) 35%,rgba(204,204,204,0.6));
+transition: 0.2s;
+}
+button:hover {
+border-color: #3CF;
+background-color: #3DF;
+}
+
+.btn {
+cursor: pointer;
+display: inline-block;
+position: fixed;
+z-index: 999;
+}
+
+xxx{
+right: 32px;
+}
+
+.bpos {
+left: 48px;
+left: 16px;
+}
+
+.blod {
+top:   16px;
+}
+
+.btop {
+top:   48px;
+}
+/* *************** */
+html:not(:hover) .bvis {
+opacity: 0;
+transition: opacity 1s 4s;
+}
+/* *************** */
+
+
+
+
+
